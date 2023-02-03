@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+html {
+    margin: 0;
+    padding: 0;
+}
+  
+body {
+    background-color: #fff;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    font-size: 30px;
+    color: black;
+    background-color: rgb(229, 228, 229);
+    border-color: #000000;
+    border-radius: .3rem;
+    margin-top: 10px;
+}
+  
+label  {
+    font-size: larger;
+    color: #000000;
+    margin: 10px;
+}
+
+#title {
+    background-color: none;
+    font-size: 1.1em;
+    color: indigo;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 50px;
+  }
+
+.choose{
+    font-size: larger;
+    color: black;
+}
+
+.button{
+    background-color: rgb(198, 160, 248);
+    color: #000000;
+    font-size: larger;
+    font-family: 'Poppins', sans-serif;
+    padding: .75rem 1rem;
+    border-radius: .5rem;
+    margin: 10px;
+    margin-top: -5px;
+}
+
+#blurb {
+    background-color: rgba(255, 255, 255, 0.386);
+    text-align: center;
+    margin: 1em auto 1em auto;
+    width: 500px;
+    padding: .5em;
+    border-radius: 5px;
+  }
+  
+  #visual-title {
+    font-weight: bold;
+    font-size: 1.2em;
+    padding-bottom: .5em;
+  }
+  
+  #array-visual {
+    margin: 1em;
+  }
+
+  rect:hover, circle:hover, text.circle:hover, text.rect:hover {
+    cursor: pointer;
+  }
+  
+  .subtext {
+    font-size: .8em;
+    font-weight: 400;
+  }
+  
+  .svg-container {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%;
+    vertical-align: top;
+    overflow: hidden;
+  }
+  
+  .svg-content-responsive {
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 0;
+  }
+  
